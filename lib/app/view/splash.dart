@@ -8,6 +8,10 @@ class SplashPage extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
+            Text("Diego Cano - Tarea 1 finalizada"),
+            SizedBox(
+              height: 20,
+            ),
             Image(
               image: AssetImage("assets/images/tarea1/rock.png"),
               height: 200,
@@ -57,3 +61,4 @@ class SplashPage extends StatelessWidget {
         ));
   }
 }
+
